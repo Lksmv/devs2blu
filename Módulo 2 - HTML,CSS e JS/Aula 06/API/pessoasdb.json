@@ -1,0 +1,22 @@
+{
+  "pessoas": [
+    {
+      "id": "ab94",
+      "nome": "Lucas",
+      "cep": "89040080",
+      "logradouro": "Rua Luiz Bittelbrunn",
+      "bairro": "Velha",
+      "cidade": "Blumenau",
+      "estado": "SC"
+    },
+    {
+      "id": "ecfe",
+      "nome": "Leo",
+      "cep": "89040070",
+      "logradouro": "Rua Mathias Herkenhoff",
+      "bairro": "Velha",
+      "cidade": "Blumenau",
+      "estado": "SC"
+    }
+  ]
+}
