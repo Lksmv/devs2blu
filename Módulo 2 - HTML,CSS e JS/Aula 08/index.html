@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requisição - API</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container mt-3">
+        <h1>Requisição - API</h1>
+
+        <form id="form">
+
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" id="nome" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="idade" class="form-label">Idade</label>
+                <input type="number" id="idade" class="form-control" required>
+            </div>
+
+            <button type="submit" id="btn" class="btn btn-primary">Cadastrar</button>
+        </form>
+
+        <hr>
+
+        <div id="list" class="mt-3">
+            <h1>Dados cadastrados</h1>
+            <ul class="list-group" id="listaUL"></ul>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
